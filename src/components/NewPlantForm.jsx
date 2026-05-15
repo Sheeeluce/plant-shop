@@ -3,8 +3,8 @@ import { useState } from "react";
 
 function NewPlantForm({newPlant}) {
   const [name, setName] = useState("")
-  const [image, setImage] = useState(null);
-  const [price, setPrice] = useState(null);
+  const [image, setImage] = useState("");
+  const [price, setPrice] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault()
