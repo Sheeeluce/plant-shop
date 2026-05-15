@@ -16,6 +16,6 @@ const [isSoldOut, setIsSoldOut] = useState(true)
       )}
     </li>
   );
-}
+};
 
 export default PlantCard;
